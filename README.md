@@ -1,4 +1,4 @@
-# Car_Insuarance_claim_prediction
+# Car Insuarance Claim Prediction
 
 
 This repository contains a Jupyter Notebook that uses machine learning algorithms to predict whether a customer is likely to make a claim on their car insurance policy in the next 6 months.

@@ -10,7 +10,7 @@ The dataset used in this project contains information on policyholders, includin
 The notebook uses various machine learning algorithms to train and test the dataset. First, the data is preprocessed by checking for missing values, encoding categorical features, and normalizing numerical features. We performed upsampling as there were significant differences in the results. Then, several models are trained, including Logistic Regression, Random Forest, Decision Tree, KNN and Gradient Boosting. After training a voting classifier using Random Forest Classifier and Decision Tree Classifier, we used feature importance to select the most relevant columns. The top 10 importance columns were policy tenure, age of policyholder, age of car, population density, area cluster, model, displacement, engine type, gross weight, and volume. We then retrained the classifier to achieve better accuracy. The best model is chosen based on its accuracy, precision, and recall scores. 
 
 # Results
-After training and testing several models, the Random Forest classifier was found to be the most accurate, with an accuracy score of 0.99 on the test set.
+After training and testing several models, the Voting Ensembles was found to be the most accurate, with an accuracy score of 0.99 on the test set.
 
 # How to use
 To use this notebook, simply download the dataset and open the Jupyter Notebook. Follow the instructions in the notebook to preprocess the data, train and test the models, and generate predictions.
